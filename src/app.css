@@ -1,0 +1,52 @@
+body {
+  background-color: #202020;
+  color: white;
+}
+
+.title {
+  font-size: 2.7rem;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.btns button{
+  padding:  5px 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: wheat;
+  font-weight: bolder;
+  margin-bottom: 2px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+}
+
+
+
+.char {
+  background-color: #101010;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.char img{
+  border-radius: 5px 5px 0 0;
+}
